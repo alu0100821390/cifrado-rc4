@@ -1,17 +1,17 @@
 ##############################################################################
-## Universidad de La Laguna						 							##
-## Escuela Superior de Ingeniería y Tecnología	 							##
-## Grado en Ingeniería Informática				 							##
-## Seguridad en Sistemas Informáticos			 							##
-## Fecha: 07/03/2016							 							##
-## Autor: Kevin Estévez Expósito (alu0100821390) 							##
-## 																			##
-## Práctica 3: Cifrado RC4											 		##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado RC4	##
-## usando Spritz PRGA														##
-##											 								##
-## Ejecución: py rc4.py "'texto_original'" "'semilla_de_clave'"				##
-## Ejemplo de ejecución: py rc4.py "1, 34" "2, 5" 							##
+## Universidad de La Laguna						    ##
+## Escuela Superior de Ingeniería y Tecnología	 			    ##
+## Grado en Ingeniería Informática				 	    ##
+## Seguridad en Sistemas Informáticos			 		    ##
+## Fecha: 07/03/2016							    ##
+## Autor: Kevin Estévez Expósito (alu0100821390) 			    ##
+## 									    ##
+## Práctica 3: Cifrado RC4						    ##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado RC4    ##
+## usando Spritz PRGA							    ##
+##									    ##
+## Ejecución: py rc4.py "'texto_original'" "'semilla_de_clave'"		    ##
+## Ejemplo de ejecución: py rc4.py "1, 34" "2, 5" 			    ##
 ##############################################################################
 
 
