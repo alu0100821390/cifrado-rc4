@@ -9,7 +9,7 @@ Cifrado y descifrado de mensajes mediante el cifrado RC4 usando Spritz PRGA.
 ### Ejecución
 
 ~~~
-    py rc4.py
+    py rc4_mod.py
 ~~~
 
 Ejemplo de texto original:
