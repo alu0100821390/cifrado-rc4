@@ -9,13 +9,19 @@ Cifrado y descifrado de mensajes mediante el cifrado RC4.
 ### Ejecución
 
 ~~~
-    py rc4.py "'texto_original'" "'semilla_de_clave'"
+    py rc4.py
 ~~~
 
-Ejemplo de ejecución:
+Ejemplo de texto original:
 
 ~~~
-    py rc4.py "1, 34" "2, 5"
+    1, 34
+~~~
+
+Ejemplo de semilla de clave:
+
+~~~
+    2, 5
 ~~~
 
 ### Información personal

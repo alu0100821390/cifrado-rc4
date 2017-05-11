@@ -1,22 +1,30 @@
-# Práctica 3: Cifrado RC4 (modificación)
+# Seguridad en Sistemas Informáticos
 
-## Introducción
+## Práctica 3: Cifrado RC4 (modificación)
+
+### Introducción
 
 Cifrado y descifrado de mensajes mediante el cifrado RC4 usando Spritz PRGA.
 
-## Ejecución
+### Ejecución
 
 ~~~
-    py rc4_mod.py "'texto_original'" "'semilla_de_clave'"
+    py rc4.py
 ~~~
 
-Ejemplo de ejecución:
+Ejemplo de texto original:
 
 ~~~
-    py rc4_mod.py "1, 34" "2, 5"
+    1, 34
 ~~~
 
-## Información personal
+Ejemplo de semilla de clave:
+
+~~~
+    2, 5
+~~~
+
+### Información personal
 
 **Autor:** [Kevin Estévez Expósito](https://alu0100821390.github.io/)
 

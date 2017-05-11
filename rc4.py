@@ -1,24 +1,27 @@
-##############################################################################
-## Universidad de La Laguna						    ##
-## Escuela Superior de Ingeniería y Tecnología	 			    ##
-## Grado en Ingeniería Informática				 	    ##
-## Seguridad en Sistemas Informáticos			 		    ##
-## Fecha: 07/03/2017							    ##
-## Autor: Kevin Estévez Expósito (alu0100821390) 			    ##
-## 									    ##
-## Práctica 3: Cifrado RC4						    ##
-## Descripción: Cifrado y descifrado de mensajes mediante el cifrado RC4.   ##
-##									    ##
-## Ejecución: py rc4.py "'texto_original'" "'semilla_de_clave'"		    ##
-## Ejemplo de ejecución: py rc4.py "1, 34" "2, 5" 			    ##
-##############################################################################
+############################################################################
+## Universidad de La Laguna                                               ##
+## Escuela Superior de Ingeniería y Tecnología                            ##
+## Grado en Ingeniería Informática                                        ##
+## Seguridad en Sistemas Informáticos                                     ##
+## Fecha: 07/03/2017                                                      ##
+## Autor: Kevin Estévez Expósito (alu0100821390)                          ##
+##                                                                        ##
+## Práctica 3: Cifrado RC4                                                ##
+## Descripción: Cifrado y descifrado de mensajes mediante el cifrado RC4. ##
+##                                                                        ##
+## Ejecución: py rc4.py                                                   ##
+## Ejemplo de texto original: 1, 34                                       ##
+## Ejemplo de semilla de clave: 2, 5                                      ##
+############################################################################
 
 
 import sys
 from operator import xor
 
-texto_original = sys.argv[1].replace(' ', '').split(",")	# Se guarda el texto original pasado por parámetros en forma de lista #
-semilla_original = sys.argv[2].replace(' ', '').split(",")	# Se guarda la semilla de clave pasada por parámetros en forma de lista #
+texto_original = str(input("Introduzca el texto original a cifrar: "))
+texto_original = texto_original.replace(' ', '').split(",")	# Se guarda el texto original en forma de lista #
+semilla_original = str(input("Introduzca la semilla de clave: "))
+semilla_original = semilla_original.replace(' ', '').split(",")	# Se guarda la semilla de clave en forma de lista #
 
 M = []
 for i in texto_original:	# Se guarda el texto original como lista de enteros
